@@ -1,0 +1,25 @@
+{
+  "name": "bsa",
+  "version": "1.0.0",
+  "description": "Benstitou Sofiane's APPs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/benstitousofiane/bsa"
+  },
+  "author": "Benstitou Sofiane",
+  "license": "Unlicense",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
