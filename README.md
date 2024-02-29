@@ -6,7 +6,7 @@ Benstitou Sofiane's APPs
 
 Dépendances (Node JS) :
 
-express express-session ejs mysql dotenv
+express express-session ejs mysql dotenv bcrypt
 
 Instruction pour construire BSA :
 
