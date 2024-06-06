@@ -5,7 +5,7 @@ shell = require('shelljs')
 walls = [["lacase", true, "formula:lol", "{formula : req.params.formula}","ejs"]] // faire la config des apps après qu'elles aient tous une page web.
 //exemple of walls : walls = [["AppName or AppRoute", false, "number1:number2/ ~ personalised", "{var1:...,var2=...}"]]
 
-//index.js updater
+//index.js architecture
 index_code = [
     'express = require("express")',
     'app = express()',
