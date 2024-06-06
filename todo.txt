@@ -1,0 +1,14 @@
+Faire le script de construction du site:
+    nom : enduiseur
+    inststruction:
+        pour chaque nom d'application mise dans une litste ajouter à index.js avant listen (ou l'ajouter tout à la fin):
+            si application[1] = true:
+                faire un GET /nom_app/:adaptation_variable:
+                    rendre(/nom_app/, {var:var})
+            sinon:
+                faire un GET /nom_app/:
+                    rendre(/nom_app/)
+
+        après:
+            ajouter toutes les applications sur le dossiers views (bien faire les adaptation !) via un git clone (installer git-clone depuis npm ?).
+    sctructure du tableau = [["app_name", variable?=...],[],...]
