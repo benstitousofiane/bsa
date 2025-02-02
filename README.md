@@ -5,3 +5,5 @@ Benstitou Sofiane's Apps
 Le site web est bientôt terminé.
 
 dépendences Node.js : express, EJS et shelljs
+
+Projet discontinue pour le moment...
